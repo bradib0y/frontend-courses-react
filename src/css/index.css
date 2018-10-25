@@ -118,10 +118,14 @@ header {
   padding: 1em;
   transition: .2s;
 }
-.main-nav a:hover,
+.main-nav a:hover {
+  color: #fff;
+  background: #5c8dc5a8;  
+}
+
 .main-nav .active {
   color: #fff;
-  background: #3b80d1;
+  background: #5c8dc5;  
 }
 
 /* COURSE NAV -------- */
